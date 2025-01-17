@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2025-01-17 21:40:59</p>
+                <p class='attribute'><strong>Duration: </strong>189.38 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 6, Pass: 5, Fail: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.IndonesiaIndicatorFunctionalityTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">testGeoAfterStrategic</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">testNews</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">testProduct</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">testStrategicFramework</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">testViewNews</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='danger'>
+                            <td class="col-xs-10">test_click_disabled_menu</td>
+                            <td class="col-xs-1">
+                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: Failed to click the element or validate the page: Message: 
+Stacktrace:
+	(No symbol) [0x00007FF741CA6B05]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741FCF444+1437348]
+	sqlite3_dbdata_init [0x00007FF742072D76+643174]
+	(No symbol) [0x00007FF741BCC9DB]
+	(No symbol) [0x00007FF741BCCAE3]
+	(No symbol) [0x00007FF741C092F7]
+	(No symbol) [0x00007FF741BEC1DF]
+	(No symbol) [0x00007FF741BC3437]
+	(No symbol) [0x00007FF741C06BFF]
+	(No symbol) [0x00007FF741BEBE03]
+	(No symbol) [0x00007FF741BC2984]
+	(No symbol) [0x00007FF741BC1E30]
+	(No symbol) [0x00007FF741BC2571]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741F7BAD4+1094964]
+	(No symbol) [0x00007FF741CE32B8]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741F7AF13+1091955]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741F7AA79+1090777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D80C81+461569]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D7C9A4+444452]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D7CAE9+444777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D72166+401382]
+	BaseThreadInitThunk [0x00007FFD47217374+20]
+	RtlUserThreadStart [0x00007FFD4815CC91+33]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "d:/SKILL TEST/web_test/ind_ind_web_test.py", line 126, in test_click_disabled_menu
+    EC.visibility_of_element_located((By.XPATH, '//*[@id="navbar"]/div/div/div/button/svg'))
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	(No symbol) [0x00007FF741CA6B05]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741FCF444+1437348]
+	sqlite3_dbdata_init [0x00007FF742072D76+643174]
+	(No symbol) [0x00007FF741BCC9DB]
+	(No symbol) [0x00007FF741BCCAE3]
+	(No symbol) [0x00007FF741C092F7]
+	(No symbol) [0x00007FF741BEC1DF]
+	(No symbol) [0x00007FF741BC3437]
+	(No symbol) [0x00007FF741C06BFF]
+	(No symbol) [0x00007FF741BEBE03]
+	(No symbol) [0x00007FF741BC2984]
+	(No symbol) [0x00007FF741BC1E30]
+	(No symbol) [0x00007FF741BC2571]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741F7BAD4+1094964]
+	(No symbol) [0x00007FF741CE32B8]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741F7AF13+1091955]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741F7AA79+1090777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D80C81+461569]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D7C9A4+444452]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D7CAE9+444777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D72166+401382]
+	BaseThreadInitThunk [0x00007FFD47217374+20]
+	RtlUserThreadStart [0x00007FFD4815CC91+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:/SKILL TEST/web_test/ind_ind_web_test.py", line 132, in test_click_disabled_menu
+    self.fail(f"Failed to click the element or validate the page: {str(e)}")
+AssertionError: Failed to click the element or validate the page: Message: 
+Stacktrace:
+	(No symbol) [0x00007FF741CA6B05]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741FCF444+1437348]
+	sqlite3_dbdata_init [0x00007FF742072D76+643174]
+	(No symbol) [0x00007FF741BCC9DB]
+	(No symbol) [0x00007FF741BCCAE3]
+	(No symbol) [0x00007FF741C092F7]
+	(No symbol) [0x00007FF741BEC1DF]
+	(No symbol) [0x00007FF741BC3437]
+	(No symbol) [0x00007FF741C06BFF]
+	(No symbol) [0x00007FF741BEBE03]
+	(No symbol) [0x00007FF741BC2984]
+	(No symbol) [0x00007FF741BC1E30]
+	(No symbol) [0x00007FF741BC2571]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741F7BAD4+1094964]
+	(No symbol) [0x00007FF741CE32B8]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741F7AF13+1091955]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF741F7AA79+1090777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D80C81+461569]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D7C9A4+444452]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D7CAE9+444777]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF741D72166+401382]
+	BaseThreadInitThunk [0x00007FFD47217374+20]
+	RtlUserThreadStart [0x00007FFD4815CC91+33]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 6, Pass: 5, Fail: 1 -- Duration: 189.38 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
